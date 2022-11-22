@@ -7,4 +7,4 @@ if value == "Вакансии":
 elif value == "Статистика":
     diagrams.execute()
 else:
-    print("Некорректный ввод из ветки main")
+    print("Некорректный ввод из ветки develop")
