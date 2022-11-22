@@ -254,10 +254,11 @@ class Report:
         [os.remove(element) for element in [path, path_second, path_third]]
 
 
-data_professions = DataSet()
-data_professions.get_general_info()
+def execute():
+    data_professions = DataSet()
+    data_professions.get_general_info()
 
-report = Report(data_professions)
-report.generate_excel()
-report.generate_image()
-report.generate_pdf()
+    report = Report(data_professions)
+    report.generate_excel()
+    report.generate_image()
+    report.generate_pdf()

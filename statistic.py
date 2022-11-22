@@ -224,7 +224,8 @@ class InputConect:
             print(vacancy_table)
 
 
-data_vacancies = InputConect()
-data_vacancies.process_data()
-if data_vacancies.is_correct_parameters:
-    data_vacancies.print_vacancies()
+def execute():
+    data_vacancies = InputConect()
+    data_vacancies.process_data()
+    if data_vacancies.is_correct_parameters:
+        data_vacancies.print_vacancies()
