@@ -1,0 +1,5 @@
+venv/Lib
+.idea/
+vacancies.csv
+vacancies_by_year.csv
+venv
