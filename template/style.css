@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+  font-family: Verdana sans-serif;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 42px;
+}
+
+h2{
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+table td, table th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
