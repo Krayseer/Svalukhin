@@ -11,14 +11,14 @@ currency_to_rub = dict(zip(currency_name, currency_value))
 
 class DataSet:
     def __init__(self):
-        # self.directory_name = input("Введите название директории: ")
-        # self.profession_name = input("Введите название профессии: ")
-        self.directory_name = 'vacancies'
-        self.profession_name = 'Аналитик'
+        self.directory_name = input("Введите название директории: ")
+        self.profession_name = input("Введите название профессии: ")
         self.professions = list()
         self.year_collection = multiprocessing.Manager().list()
 
     def get_info(self, is_profession):
+        # Если нужно получить информацию по профессии, передаём в метод True, иначе False
+
         salary_dict = dict()
         count_dict = dict()
         for profession in self.professions:
