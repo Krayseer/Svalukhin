@@ -3,3 +3,6 @@ venv/Lib
 vacancies.csv
 vacancies_by_year.csv
 venv
+data_vacancies_yesterday.csv
+vacancies_dif_currencies.csv
+all_vacancies.csv
