@@ -48,7 +48,7 @@ def create_file_of_correct_data(file_name):
             correct_vacancies.append(vacancy)
 
     dataframe = pd.DataFrame(correct_vacancies)
-    dataframe.to_csv("currency_by_month.csv", sep=';', index=False)
+    dataframe.to_csv("currency_by_month.csv", index=False)
 
 
 def get_currency_by_date_dict(file_name):
