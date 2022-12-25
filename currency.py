@@ -66,6 +66,7 @@ def get_currency_by_date_dict(file_name):
 def get_processed_information(file_name):
     currency = get_correct_currency_frequency(file_name)
     date_curr = get_currency_by_date_dict("currency_by_month.csv")
+    print(date_curr)
 
     result = []
     with open(file_name, encoding='utf-8-sig') as file:
