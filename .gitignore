@@ -6,3 +6,5 @@ venv
 data_vacancies_yesterday.csv
 vacancies_dif_currencies.csv
 all_vacancies.csv
+full_vacancies.csv
+currency_by_month.db
